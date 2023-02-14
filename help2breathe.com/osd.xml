@@ -8,8 +8,8 @@
 	<Url type="text/html" template="https://help2breathe.com/?s={searchTerms}" method="GET" />
 	<Url type="application/opensearchdescription+xml" rel="self" template="https://help2breathe.com/osd.xml" />
 	<LongName>Help2Breathe</LongName>
-	<Image height="16" width="16" type="image/vnd.microsoft.icon">../healthcaresanity.files.wordpress.com/2022/05/help2breathe-icon-1.png?w=16</Image>
-	<Image height="64" width="64" type="image/png">../healthcaresanity.files.wordpress.com/2022/05/help2breathe-icon-1.png?w=64</Image>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">../healthcaresanity/2022/05/help2breathe-icon-1.png?w=16</Image>
+	<Image height="64" width="64" type="image/png">../healthcaresanity/2022/05/help2breathe-icon-1.png?w=64</Image>
 	<Query role="example" searchTerms="photography" />
 	<Tags>blog</Tags>
 	<Developer>Automattic</Developer>
