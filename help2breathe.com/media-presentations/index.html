@@ -117,7 +117,7 @@ window.addEventListener( "message", function( e ) {
 			iframe.id = 'wpcom_request_access_iframe';
 			iframe.setAttribute( 'scrolling', 'no' );
 			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
-			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&amp;origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+			iframe.src = 'zzparrots?wpcom_remote_login=request_access&amp;origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
 
 			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
 
@@ -143,7 +143,7 @@ window.addEventListener( "DOMContentLoaded", function( e ) {
 	iframe.style.display = "none";
 	iframe.setAttribute( "scrolling", "no" );
 	iframe.setAttribute( "id", "wpcom_remote_login_key" );
-	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+	iframe.src = "zzparrots"
 		+ "?wpcom_remote_login=key"
 		+ "&origin=aHR0cHM6Ly9oZWxwMmJyZWF0aGUuY29t"
 		+ "&wpcomid=204208122"
